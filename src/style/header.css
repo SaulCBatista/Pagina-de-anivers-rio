@@ -20,10 +20,10 @@ header h1 span {
     color: #F4D8EE;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     header img {
-        transform: scale(-2);
-        top: 25px;
+        transform: scaleY(-2);
+        top: 20px;
     }
 
     header h1 {
