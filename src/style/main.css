@@ -18,12 +18,18 @@
     text-align: justify;
 }
 
+#nome {
+    font-family: "Ms Madi", cursive;
+    font-size: 2rem;
+    color: #680E55;
+}
+
 .imagens {
     display: contents;
 }
 
 .imagem-coluna {
-    background-color: black;
+    background-image: linear-gradient(to right, #BE11CE, #600968);
     transform: rotate(-4deg);
     border-radius: 20px;
     width: 250px;
