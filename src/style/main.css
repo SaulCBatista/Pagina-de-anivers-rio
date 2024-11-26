@@ -40,7 +40,7 @@
 
 #imagem_fundo {
     position: relative;
-    right: 100px;
+    right: 70px;
     top: 10px;
     z-index: -1;
 }
@@ -49,6 +49,22 @@
     display: none;
 } 
 
+.video {
+    background-color: #AC1D8D;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-bottom: 56.9999%;
+    position: relative;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
+
 @media screen and (max-width:1000px) {
     .sections {
         flex-direction: column;
@@ -56,11 +72,15 @@
 
     .texto {
         font-size: 1.2rem;
+        width: 100%;
+        text-align: left;
     }
 
     .imagens {
         display: flex;
         justify-content: center;
+        align-content: center;
+        width: 100%;
     }
 
     #imagens_esconder {
