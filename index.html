@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style/style.css">
     <link rel="shortcut icon" href="src/img/icons8-favorite-color-pixels-16.png" type="image/x-icon">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Parabéns meu amor</title>
 </head>
 <body>
     <header>
         <img src="src/img/wave.png" alt="">
-        <h1><span>Feliz aniversário</span><br>meu amor</h1>
+        <h1 id="titulo"><span>Feliz aniversário</span><br>meu amor</h1>
     </header>
     
     <main>
         <section class="sections" id="section_titulo">
-            <div class="texto">
+            <div class="texto" id="texto_brenda">
                 <p>
                     No dia em que você nasceu, o mundo se iluminou com a sua chegada. Não há privilégio maior do que compartilhar a vida ao lado de alguém tão especial, alguém cujo sorriso tem o poder de transformar até os dias mais comuns em celebrações inesquecíveis. Teu sorriso é um raio de sol que afasta qualquer escuridão, uma obra de arte viva que torna o mundo ao meu redor mais belo e pleno de significado.
                 </p>
@@ -24,7 +27,7 @@
                 </p>
             </div>
             
-            <div class="imagens">
+            <div class="imagens" id="imagens_brenda">
                 <div class="imagem-coluna">
                     <div class="img">
                         <img src="src/img/img-01.jpg" alt="">
@@ -47,14 +50,14 @@
                     </div>
                 </div>
 
-                <div class="imagem-coluna" id="imagem_fundo">
+                <div class="imagem-coluna imagem-casal" id="imagem_fundo">
                     <div class="img">
                         <img src="src/img/img-04.jpg" alt="">
                     </div>
                 </div>
             </div>
 
-            <div class="texto">
+            <div class="texto" id="texto_casal">
                 <p>
                     Hoje, celebro você: tua luz, tua beleza e a essência única que faz de ti um ser tão extraordinário. Quero que saibas: amo não apenas o que vejo ou sinto, mas amo, sobretudo, quem você é. Teu sorriso, teus cachos, tua alma inteira são a poesia que escolhi ler e reler todos os dias da minha vida.
                 </p>
@@ -67,7 +70,7 @@
                 </p>
             </div>
 
-            <div class="imagens" id="imagens_mobile">
+            <div class="imagens imagem-casal" id="imagens_mobile">
                 <div class="imagem-coluna">
                     <div class="img">
                         <img src="src/img/img-03.jpg" alt="">
@@ -92,5 +95,6 @@
     <footer>
         <img src="src/img/wave.png" alt="">
     </footer>
+    <script src="src/scripts/script.js"></script>
 </body>
 </html>
