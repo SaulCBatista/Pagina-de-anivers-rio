@@ -1,10 +1,4 @@
 $(document).ready(function() {
-    ScrollReveal().reveal('#titulo', {
-        origin: 'top',
-        duration: 2000,
-        distance: '20%'
-    });
-
     ScrollReveal().reveal('#texto_brenda', {
         origin: 'left',
         duration: 2000,
